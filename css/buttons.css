@@ -1,0 +1,14 @@
+.btn-red {
+  text-decoration: none;
+  line-height: 100px;
+  background-color: rgb(173, 14, 14);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.btn-red:hover {
+  color: black;
+}

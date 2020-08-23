@@ -1,0 +1,19 @@
+#img-circle {
+  width: 160px;
+  height: 150px;
+  border-radius: 75px;
+}
+#rounders-poster {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.in-text-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+#golf-link {
+  font-size: 30px;
+}

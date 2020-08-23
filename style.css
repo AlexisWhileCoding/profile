@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('/css/cards.css');
+@import url('css/images.css');
+@import url('css/buttons.css');
 
 @media (max-width: 960px) {
   .container {
@@ -23,39 +26,6 @@
   margin: 0 auto;
 }
 
-#img-circle {
-  width: 160px;
-  height: 150px;
-  border-radius: 75px;
-}
-
-#golf-link {
-  font-size: 30px;
-}
-
-#rounders-poster {
-  width: 200px;
-  height: 300px;
-  border-radius: 20px;
-}
-
-.in-text-image {
-  width: 300px;
-  height: 200px;
-  border-radius: 50px;
-}
-
-.white-card {
-  background-color: #dee3e2;
-  padding: 40px;
-  width: 700px;
-  box-shadow: 0px 10px 40px rgb(24, 22, 22);
-  border-radius: 8px;
-  border: 1px solid grey;
-  margin: 40px auto;
-  text-align: center;
-}
-
 body {
   background: #85a392;
   color: #2a2c2b;
@@ -73,21 +43,6 @@ h1 {
 h2 {
   font-size: 25px;
   font-family:'Courgette', cursive;
-}
-
-.btn-red {
-  text-decoration: none;
-  line-height: 100px;
-  background-color: rgb(173, 14, 14);
-  color: white;
-  font-weight: bold;
-  padding: 15px;
-  margin: 30px;
-  border-radius: 5px;
-}
-
-.btn-red:hover {
-  color: black;
 }
 
 .list-inline {
